@@ -34,11 +34,11 @@ public class ExercicioWrapperClasses {
 
         Integer valueOfUpperCase = Integer.valueOf(letra);
         Integer valueOfLowerCase = valueOfUpperCase + 32;
-        String s = Character.toString(valueOfLowerCase);
+        String minuscula = Character.toString(valueOfLowerCase);
 //
 //        return Character.toString(Character.toLowerCase(letra));//???? Não vale: String.toLowerCase()     // SOL 1
 //        return String.valueOf((char) ((int)letra + 0x20));                                                // SOL 2
-        return s;                                                                                           // SOL 3
+        return minuscula;                                                                                           // SOL 3
 
 
 
